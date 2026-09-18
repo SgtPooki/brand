@@ -2,7 +2,13 @@
   "name": "@sgtpooki/brand",
   "version": "0.1.0",
   "description": "Design tokens, Tailwind preset, and visual brand assets for SgtPooki LLC",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SgtPooki/brand.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "tokens/tailwind.preset.js",
   "exports": {
     ".": "./tokens/tailwind.preset.js",
@@ -24,5 +30,5 @@
     "brand"
   ],
   "author": "SgtPooki LLC",
-  "license": "UNLICENSED"
+  "license": "MIT"
 }
