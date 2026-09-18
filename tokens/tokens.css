@@ -1,0 +1,134 @@
+/**
+ * SgtPooki LLC — Design Tokens (Nordic Slate & Ice Blue)
+ * Master brand design tokens with Open Props & Tailwind CSS compatibility.
+ */
+
+:root,
+[data-theme="dark"] {
+  /* Surfaces & Backgrounds */
+  --bg-canvas: #0c0d0f;        /* Matte carbon background */
+  --bg-surface: #14161a;       /* Elevated graphite card / container */
+  --bg-surface-subtle: #1a1d24;/* Secondary hover / subtle container */
+  --bg-elevated: #20242c;      /* Dialogs, popovers, dropdowns */
+
+  /* Borders & Dividers */
+  --border-subtle: #1e222a;    /* Hairline secondary divider */
+  --border-default: #262a32;   /* Standard card & input border */
+  --border-emphasis: #3b4250;  /* Active / hover element border */
+
+  /* Text & Foreground */
+  --text-primary: #f1f5f9;     /* Slate 100 — High contrast headings & body */
+  --text-secondary: #94a3b8;   /* Slate 400 — Muted body & descriptions */
+  --text-tertiary: #64748b;    /* Slate 500 — Captions, disabled text */
+  --text-inverse: #0f172a;     /* Inverted text for solid light badges */
+
+  /* Brand Mark & Accents */
+  --brand-mark: #93c5fd;       /* Muted Ice Blue — Primary SP Monogram */
+  --brand-mark-alt: #ffffff;   /* Pure White — Monogram contrast variant */
+  --brand-accent: #93c5fd;     /* Ice Blue highlight / link accent */
+  --brand-accent-hover: #bfdbfe;
+  
+  /* Interactive Actions */
+  --btn-primary-bg: #2563eb;   /* Precision Blue action button */
+  --btn-primary-hover: #1d4ed8;
+  --btn-primary-active: #1e40af;
+  --btn-primary-text: #ffffff;
+
+  /* Status Indicators (Muted Developer System) */
+  --status-success: #10b981;
+  --status-success-bg: rgba(16, 185, 129, 0.12);
+  --status-warning: #f59e0b;
+  --status-warning-bg: rgba(245, 158, 11, 0.12);
+  --status-error: #ef4444;
+  --status-error-bg: rgba(239, 68, 68, 0.12);
+  --status-info: #38bdf8;
+  --status-info-bg: rgba(56, 189, 248, 0.12);
+
+  /* Focus Ring */
+  --focus-ring: rgba(147, 197, 253, 0.35);
+
+  /* Elevation & Shadows (Open Props compatible) */
+  --shadow-1: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -2px rgba(0, 0, 0, 0.5);
+  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.6), 0 4px 6px -4px rgba(0, 0, 0, 0.6);
+  --shadow-sm: var(--shadow-1);
+  --shadow-md: var(--shadow-2);
+  --shadow-lg: var(--shadow-3);
+
+  /* Corner Radii (Open Props compatible) */
+  --radius-1: 4px;
+  --radius-2: 6px;
+  --radius-3: 8px;
+  --radius-4: 12px;
+  --radius-round: 9999px;
+  --radius-sm: var(--radius-1);
+  --radius-md: var(--radius-2);
+  --radius-lg: var(--radius-3);
+  --radius-xl: var(--radius-4);
+  --radius-full: var(--radius-round);
+
+  /* Transitions & Easings (Open Props compatible) */
+  --ease-1: cubic-bezier(0.25, 0, 0.5, 1);
+  --ease-2: cubic-bezier(0.25, 0, 0.4, 1);
+  --ease-spring-1: cubic-bezier(0.5, 1.25, 0.75, 1.25);
+  --ease-spring-2: cubic-bezier(0.5, 1.5, 0.75, 1.25);
+  --transition-fast: 150ms var(--ease-2);
+  --transition-normal: 250ms var(--ease-2);
+
+  /* Typography Stacks */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+[data-theme="light"] {
+  /* Surfaces & Backgrounds */
+  --bg-canvas: #f8fafc;        /* Slate 50 — Cool off-white canvas */
+  --bg-surface: #ffffff;       /* Pure white card / container */
+  --bg-surface-subtle: #f1f5f9;/* Slate 100 — Secondary hover */
+  --bg-elevated: #ffffff;      /* Dialogs & popovers */
+
+  /* Borders & Dividers */
+  --border-subtle: #f1f5f9;    /* Slate 100 hairline */
+  --border-default: #e2e8f0;   /* Slate 200 standard border */
+  --border-emphasis: #cbd5e1;  /* Slate 300 active border */
+
+  /* Text & Foreground */
+  --text-primary: #0f172a;     /* Slate 900 — Main body & titles */
+  --text-secondary: #475569;   /* Slate 600 — Secondary descriptions */
+  --text-tertiary: #94a3b8;    /* Slate 400 — Disabled / subtle text */
+  --text-inverse: #f8fafc;     /* Inverted text */
+
+  /* Brand Mark & Accents */
+  --brand-mark: #1e293b;       /* Deep Slate — Primary SP Monogram */
+  --brand-mark-alt: #2563eb;   /* Precision Blue variant */
+  --brand-accent: #2563eb;     /* Precision Blue link accent */
+  --brand-accent-hover: #1d4ed8;
+
+  /* Interactive Actions */
+  --btn-primary-bg: #2563eb;   /* Precision Blue action button */
+  --btn-primary-hover: #1d4ed8;
+  --btn-primary-active: #1e40af;
+  --btn-primary-text: #ffffff;
+
+  /* Status Indicators */
+  --status-success: #059669;
+  --status-success-bg: rgba(5, 150, 105, 0.08);
+  --status-warning: #d97706;
+  --status-warning-bg: rgba(217, 119, 6, 0.08);
+  --status-error: #dc2626;
+  --status-error-bg: rgba(220, 38, 38, 0.08);
+  --status-info: #0284c7;
+  --status-info-bg: rgba(2, 132, 199, 0.08);
+
+  /* Focus Ring */
+  --focus-ring: rgba(37, 99, 235, 0.25);
+
+  /* Elevation & Shadows (Open Props compatible) */
+  --shadow-1: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.07);
+  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-sm: var(--shadow-1);
+  --shadow-md: var(--shadow-2);
+  --shadow-lg: var(--shadow-3);
+}

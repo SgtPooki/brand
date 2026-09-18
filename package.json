@@ -1,0 +1,28 @@
+{
+  "name": "@sgtpooki/brand",
+  "version": "0.1.0",
+  "description": "Design tokens, Tailwind preset, and visual brand assets for SgtPooki LLC",
+  "private": true,
+  "main": "tokens/tailwind.preset.js",
+  "exports": {
+    ".": "./tokens/tailwind.preset.js",
+    "./tailwind.preset.js": "./tokens/tailwind.preset.js",
+    "./tokens.css": "./tokens/tokens.css",
+    "./assets/*": "./assets/*"
+  },
+  "files": [
+    "tokens",
+    "assets",
+    "GUIDELINES.md",
+    "README.md"
+  ],
+  "keywords": [
+    "design-tokens",
+    "tailwind",
+    "open-props",
+    "sgtpooki",
+    "brand"
+  ],
+  "author": "SgtPooki LLC",
+  "license": "UNLICENSED"
+}
