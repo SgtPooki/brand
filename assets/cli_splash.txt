@@ -12,5 +12,5 @@
       ███████████████   █████                 
                        █████                  [0m
 
-   [1;37mSGTP00KI[0m  [90m//[0m  [38;2;147;197;253mAutonomous Systems & Software[0m
+   [1;37mSGTP00KI[0m  [90m//[0m  [38;2;147;197;253mSoftware & Systems Engineering[0m
    [90msgtpooki.com • SgtPooki LLC[0m
