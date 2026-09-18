@@ -198,10 +198,16 @@ brand/
 ├── GUIDELINES.md                    # Master Brand Specification (this file)
 ├── tokens/
 │   ├── tokens.css                   # Semantic CSS Custom Properties (Open Props compatible)
-│   └── tailwind.preset.js           # Exportable Tailwind CSS Preset (v3 & v4)
+│   ├── tailwind.preset.js           # Exportable Tailwind CSS Preset (v3 & v4)
+│   └── tailwind-v4.css              # Native Tailwind v4 @theme integration
+├── templates/
+│   └── social/
+│       └── og-template.html         # Product Open Graph card template
 └── assets/
     ├── favicon.ico                  # 16x16, 32x32, 48x48 multi-res web favicon
     ├── cli_splash.txt               # ANSI truecolor terminal splash screen
+    ├── social/
+    │   └── og-default.png           # 1200x630 universal master social card (CODE. SYSTEMS. AGENTS.)
     ├── svg/
     │   ├── sp-chamfer-ice-blue.svg  # Native vector mark (#93C5FD)
     │   ├── sp-chamfer-precision-blue.svg # Native vector mark (#2563EB)
@@ -231,3 +237,8 @@ brand/
 ### CLI & Terminal Applications
 - CLI tools should display `assets/cli_splash.txt` on startup or `--version` flags when stdout is interactive.
 - **NO_COLOR Standard:** Always inspect `process.env.NO_COLOR` or `std::env::var("NO_COLOR")` ([no-color.org](https://no-color.org)). If present (or when piped/non-TTY), suppress ANSI escape codes and output clean plaintext.
+
+### Social Preview Cards (Open Graph / Twitter)
+- **Universal Default Card:** `assets/social/og-default.png` (1200x630 px, opaque `#0C0D0F` carbon canvas). Centered SP monogram, `SgtPooki LLC`, and `CODE. SYSTEMS. AGENTS.` inside a **630x630 px center safe zone**. This guarantees clean rendering across 1.91:1, 2:1, and 1:1 mobile and chat crops (iMessage, Twitter, Slack, WhatsApp).
+- **Product Social Cards:** Products define their own 1200x630 card following the Endorsement Matrix (`[Product Name] by SgtPooki`) using `templates/social/og-template.html`.
+- **Crawler Directives:** Always set `og:image` as an absolute HTTPS URL (`image/png`, 1200x630), include `twitter:card="summary_large_image"`, and keep file sizes under 300 KB.
