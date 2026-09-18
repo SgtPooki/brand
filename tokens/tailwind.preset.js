@@ -32,7 +32,7 @@ module.exports = {
         content: {
           primary: 'var(--text-primary, #F1F5F9)',
           secondary: 'var(--text-secondary, #94A3B8)',
-          tertiary: 'var(--text-tertiary, #64748B)',
+          tertiary: 'var(--text-tertiary, #94A3B8)',
           inverse: 'var(--text-inverse, #0F172A)',
         },
         accent: {
@@ -42,7 +42,7 @@ module.exports = {
           'primary-hover': 'var(--btn-primary-hover, #1D4ED8)',
         },
         status: {
-          success: 'var(--status-success, #10B981)',
+          success: 'var(--status-success, #34D399)',
           'success-bg': 'var(--status-success-bg, rgba(16, 185, 129, 0.12))',
           warning: 'var(--status-warning, #F59E0B)',
           'warning-bg': 'var(--status-warning-bg, rgba(245, 158, 11, 0.12))',

@@ -1,0 +1,41 @@
+@import "./tokens.css";
+
+@theme {
+  --color-brand-carbon: #0c0d0f;
+  --color-brand-graphite: #14161a;
+  --color-brand-ice: #93c5fd;
+  --color-brand-precision: #2563eb;
+  --color-brand-slate: #1e293b;
+
+  --color-bg-canvas: var(--bg-canvas);
+  --color-bg-surface: var(--bg-surface);
+  --color-bg-surface-subtle: var(--bg-surface-subtle);
+  --color-bg-elevated: var(--bg-elevated);
+
+  --color-border-subtle: var(--border-subtle);
+  --color-border-default: var(--border-default);
+  --color-border-emphasis: var(--border-emphasis);
+
+  --color-content-primary: var(--text-primary);
+  --color-content-secondary: var(--text-secondary);
+  --color-content-tertiary: var(--text-tertiary);
+  --color-content-inverse: var(--text-inverse);
+
+  --color-accent-DEFAULT: var(--brand-accent);
+  --color-accent-hover: var(--brand-accent-hover);
+  --color-accent-primary: var(--btn-primary-bg);
+  --color-accent-primary-hover: var(--btn-primary-hover);
+
+  --color-status-success: var(--status-success);
+  --color-status-success-bg: var(--status-success-bg);
+  --color-status-warning: var(--status-warning);
+  --color-status-warning-bg: var(--status-warning-bg);
+  --color-status-error: var(--status-error);
+  --color-status-error-bg: var(--status-error-bg);
+  --color-status-info: var(--status-info);
+  --color-status-info-bg: var(--status-info-bg);
+
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}

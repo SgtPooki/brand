@@ -17,14 +17,14 @@
   --border-emphasis: #3b4250;  /* Active / hover element border */
 
   /* Text & Foreground */
-  --text-primary: #f1f5f9;     /* Slate 100 — High contrast headings & body */
-  --text-secondary: #94a3b8;   /* Slate 400 — Muted body & descriptions */
-  --text-tertiary: #64748b;    /* Slate 500 — Captions, disabled text */
+  --text-primary: #f1f5f9;     /* Slate 100 - High contrast headings & body */
+  --text-secondary: #94a3b8;   /* Slate 400 - Muted body & descriptions */
+  --text-tertiary: #94a3b8;    /* Slate 400 - Captions, disabled text (7.5:1 vs canvas) */
   --text-inverse: #0f172a;     /* Inverted text for solid light badges */
 
   /* Brand Mark & Accents */
-  --brand-mark: #93c5fd;       /* Muted Ice Blue — Primary SP Monogram */
-  --brand-mark-alt: #ffffff;   /* Pure White — Monogram contrast variant */
+  --brand-mark: #93c5fd;       /* Muted Ice Blue - Primary SP Monogram */
+  --brand-mark-alt: #ffffff;   /* Pure White - Monogram contrast variant */
   --brand-accent: #93c5fd;     /* Ice Blue highlight / link accent */
   --brand-accent-hover: #bfdbfe;
   
@@ -35,7 +35,7 @@
   --btn-primary-text: #ffffff;
 
   /* Status Indicators (Muted Developer System) */
-  --status-success: #10b981;
+  --status-success: #34d399;
   --status-success-bg: rgba(16, 185, 129, 0.12);
   --status-warning: #f59e0b;
   --status-warning-bg: rgba(245, 158, 11, 0.12);
@@ -94,13 +94,13 @@
   --border-emphasis: #cbd5e1;  /* Slate 300 active border */
 
   /* Text & Foreground */
-  --text-primary: #0f172a;     /* Slate 900 — Main body & titles */
-  --text-secondary: #475569;   /* Slate 600 — Secondary descriptions */
-  --text-tertiary: #94a3b8;    /* Slate 400 — Disabled / subtle text */
+  --text-primary: #0f172a;     /* Slate 900 - Main body & titles */
+  --text-secondary: #475569;   /* Slate 600 - Secondary descriptions */
+  --text-tertiary: #64748b;    /* Slate 500 - Captions, disabled text (4.55:1 vs canvas) */
   --text-inverse: #f8fafc;     /* Inverted text */
 
   /* Brand Mark & Accents */
-  --brand-mark: #1e293b;       /* Deep Slate — Primary SP Monogram */
+  --brand-mark: #1e293b;       /* Deep Slate - Primary SP Monogram */
   --brand-mark-alt: #2563eb;   /* Precision Blue variant */
   --brand-accent: #2563eb;     /* Precision Blue link accent */
   --brand-accent-hover: #1d4ed8;
@@ -112,14 +112,14 @@
   --btn-primary-text: #ffffff;
 
   /* Status Indicators */
-  --status-success: #059669;
-  --status-success-bg: rgba(5, 150, 105, 0.08);
-  --status-warning: #d97706;
-  --status-warning-bg: rgba(217, 119, 6, 0.08);
+  --status-success: #047857;
+  --status-success-bg: rgba(4, 120, 87, 0.08);
+  --status-warning: #b45309;
+  --status-warning-bg: rgba(180, 83, 9, 0.08);
   --status-error: #dc2626;
   --status-error-bg: rgba(220, 38, 38, 0.08);
-  --status-info: #0284c7;
-  --status-info-bg: rgba(2, 132, 199, 0.08);
+  --status-info: #0369a1;
+  --status-info-bg: rgba(3, 105, 161, 0.08);
 
   /* Focus Ring */
   --focus-ring: rgba(37, 99, 235, 0.25);

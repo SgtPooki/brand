@@ -14,6 +14,7 @@
     ".": "./tokens/tailwind.preset.js",
     "./tailwind.preset.js": "./tokens/tailwind.preset.js",
     "./tokens.css": "./tokens/tokens.css",
+    "./tailwind-v4.css": "./tokens/tailwind-v4.css",
     "./assets/*": "./assets/*"
   },
   "files": [

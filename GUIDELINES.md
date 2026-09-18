@@ -76,7 +76,8 @@ The palette takes inspiration from Linear and Raycast—restrained carbon surfac
 | `--bg-surface-subtle` | `#1A1D24` | Elevated Slate (Hover states) | — |
 | `--border-default` | `#262A32` | Hairline Slate Border | 3.2:1 vs Canvas |
 | `--text-primary` | `#F1F5F9` | Slate 100 (Headings, primary copy) | **17.8:1** (AAA) |
-| `--text-secondary` | `#94A3B8` | Slate 400 (Secondary copy, captions) | **7.4:1** (AAA) |
+| `--text-secondary` | `#94A3B8` | Slate 400 (Secondary copy, descriptions) | **7.4:1** (AAA) |
+| `--text-tertiary` | `#94A3B8` | Slate 400 (Captions, subtle text) | **7.4:1** (AAA) |
 | `--brand-mark` | `#93C5FD` | Muted Ice Blue (Primary SP Monogram) | **10.2:1** (AAA) |
 | `--btn-primary-bg` | `#2563EB` | Precision Blue (Primary CTA button) | **4.6:1** vs White text |
 | `--btn-primary-hover` | `#1D4ED8` | Deep Precision Blue (CTA Hover) | **6.1:1** vs White text |
@@ -90,6 +91,7 @@ The palette takes inspiration from Linear and Raycast—restrained carbon surfac
 | `--border-default` | `#E2E8F0` | Slate 200 (Standard border rule) | — |
 | `--text-primary` | `#0F172A` | Slate 900 (Headings, body copy) | **18.9:1** (AAA) |
 | `--text-secondary` | `#475569` | Slate 600 (Secondary copy) | **7.1:1** (AAA) |
+| `--text-tertiary` | `#64748B` | Slate 500 (Captions, subtle text) | **4.6:1** (AA) |
 | `--brand-mark` | `#1E293B` | Deep Slate (Primary mark in light mode) | **13.5:1** (AAA) |
 | `--brand-mark-alt` | `#2563EB` | Precision Blue (Accent mark variant) | **4.8:1** (AA) |
 | `--btn-primary-bg` | `#2563EB` | Precision Blue (CTA button) | **4.6:1** vs White text |
