@@ -1,6 +1,6 @@
 {
   "name": "@sgtpooki/brand",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Design tokens, Tailwind preset, and visual brand assets for SgtPooki LLC",
   "repository": {
     "type": "git",
